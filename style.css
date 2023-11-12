@@ -1,0 +1,219 @@
+
+
+body {
+  font-family: "Inter", sans-serif;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+main {
+  width: 88%;
+  margin: 0 auto;
+  max-width: 1280px;
+
+}
+
+nav {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+
+ul {
+  list-style-type: none;
+  display: flex;
+  font-weight: 400;
+  font-size: 18px;
+  background-color: white;
+  padding: 4rem 1rem;
+}
+
+
+
+
+
+li {
+  display: inline-block;
+  padding: 14px 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hamburger{
+  display: none;
+}
+
+
+.img1 {
+  background-image: url(./assets/images/image-web-3-desktop.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% auto;
+  padding: 160px;
+  width: 500px;
+
+}
+
+header section {
+  margin: 1.5rem 0;
+}
+
+
+p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+margin-top: 20px;
+}
+
+.text{
+  margin-right: 250px;
+}
+
+.content {
+  display: flex;
+margin-top:-15px;
+margin-top: 10px;
+width: 80%;
+}
+.content .text{
+  width: 50%;
+}
+
+h1 {
+  margin-top: 5px;
+  font-size: 60px;
+  width: 45%;
+  margin-right: 100px;
+}
+button {
+  background-color: rgb(255, 94, 94);
+  border-radius: none;
+  padding: 15px 30px; 
+  border: none;
+  color: white;
+  margin-top:35px;
+}
+
+button a {
+  color: white;
+  text-decoration: none;
+  
+}
+
+
+
+.new {
+  background-color: rgb(13, 13, 24);
+  padding: 1.5rem;
+  margin: -40rem 0;
+  width: 25%;
+  margin-left: 880px;
+  color: white;
+  position: inherit;
+}
+
+.new h2 {
+  font-weight: 800;
+  line-height: 24px;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+
+.new article {
+  margin: 1.85rem 0;
+}
+
+
+
+
+.new p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+}
+
+.new hr {
+  border: none;
+  height: 0.125px;
+  background-color: white;
+}
+
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 709px;
+}
+
+.top article {
+
+  display: flex;
+}
+
+article img {
+
+  height: 200px;
+  width: auto;
+  margin-right: 20px;
+ margin-left: 10px;
+}
+
+
+ h3{
+ font-size: 26px;
+ color: rgb(175, 170, 170);
+ font-weight: bolder;
+ }
+ h4 {
+  font-size: 20px;
+  color: black;
+}
+
+
+@media screen and (max-width: 760px){ 
+
+  main {
+      width: 100%;
+    margin: auto;
+    max-width: 480px;
+
+  }
+.list{
+  display: none;
+}
+.hamburger{
+  display: block;
+}
+
+.img1{
+  background-image: url(./assets/images/image-web-3-mobile.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% auto;
+  height: auto;
+  width:34px;
+  margin-top: 20px;
+}
+
+
+h1{
+text-align: center;
+width: 100;
+
+}
+
+
+
+
+}
